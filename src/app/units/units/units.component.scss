@@ -1,0 +1,19 @@
+h3 {
+  margin:5px 20px;
+  text-align: center;
+}
+.units-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+.units-container {
+  .units-left-section {
+    flex: 0 1 20%;
+    margin: 20px;
+  }
+  .units-right-section {
+    flex: 0 1 20%;
+    margin: 20px;
+  }
+}

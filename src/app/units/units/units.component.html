@@ -1,0 +1,73 @@
+<h3>Unit Conversion</h3>
+<hr>
+
+<main class="units-container">
+
+<section class="units-left-section">
+  <h4>Select units from options</h4>
+  <label>
+    Input Numerical Value  <input type="number" class="form-control" [(ngModel)]="input1">
+  </label>
+  <label>
+    Input Unit of Measure 
+    <select name="Units" class="form-control" [(ngModel)]="unitOfInput1">
+    <option value="kelvin">Kelvin </option>
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    <option value="rankine">Rankine</option>
+    <option value="liters">Liters </option>
+    <option value="tablespoons">Tablespoons</option>
+    <option value="cubic-inches">Cubic-inches</option>
+    <option value="cups">Cups</option>
+    <option value="cubic-feet">Cubic-feet</option>
+    <option value="gallons">Gallons</option>
+  </select>
+  </label>
+  <label>
+  Target Unit of Measure 
+  <select name="Units" class="form-control" [(ngModel)]="unitOfTarget1">
+  <option value="kelvin">Kelvin </option>
+  <option value="celsius">Celsius</option>
+  <option value="fahrenheit">Fahrenheit</option>
+  <option value="rankine">Rankine</option>
+  <option value="liters">Liters </option>
+  <option value="tablespoons">Tablespoons</option>
+  <option value="cubic-inches">Cubic-inches</option>
+  <option value="cups">Cups</option>
+  <option value="cubic-feet">Cubic-feet</option>
+  <option value="gallons">Gallons</option>
+</select>
+</label>
+  <label>
+    Student Response <input type="number" class="form-control" [(ngModel)]="studentResponse1">
+  </label>
+  <label>
+    <br>
+  <button class="" (click)="output1()">Output</button>
+  <br><br>
+  <input type="text" class="form-control" [value]="result1">
+  </label>
+</section>
+
+<section class="units-right-section">
+    <h4>Type your own units</h4>
+      <label>
+        Input Numerical Value  <input type="number" class="form-control" [(ngModel)]="input2">
+      </label>
+      <label>
+        Input Unit of Measure <input type="text" class="form-control" [(ngModel)]="unitOfInput2">
+    </label>
+    <label>
+      Target Unit of Measure <input type="text" class="form-control" [(ngModel)]="unitOfTarget2">
+    </label>
+      <label>
+        Student Response <input type="number" class="form-control" [(ngModel)]="studentResponse2">
+      </label>
+      <label>
+      <br>
+      <button class="" (click)="output2()">Output</button>
+      <br><br>
+      <input type="text" class="form-control" [value]="result2">
+      </label>
+  </section>
+</main>
