@@ -5,6 +5,10 @@ import { UnitsComponent } from './units/units/units.component';
 
 const routes: Routes = [
   {
+    path:'',
+    component: HomeComponent
+  },
+  {
     path: 'home',
     component: HomeComponent
   },
