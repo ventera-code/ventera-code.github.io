@@ -36,15 +36,14 @@ The application will be implemented with Angular.
 
 There are two ways to run the website.
 
-1. fork the repo and run the website locally
+1. in the browser, type "ventera-code.github.io" to run the website
+2. fork the repo and run the website locally
    To run the website locally, you need do the following steps:
-   - fork the repo (git clone ) on the terminal
+   - fork the repo (git clone ) on the terminal from https://github.com/ventera-code/ventera-code.github.ioß
    - after fork the repo, in the local repo, you need run "npm install" and "npm i bootstrap"
    - in angular.json, line 29, add "stlyes" of "node_modules/bootstrap/dist/css/bootstrap.min.css" to use bootstrap
    - then run "ng serve" on the terminal
    - finally run "localhost:4200" on the browser
-2. github.com/ventera-code-chanllenge/ventera-code-chanllenge.github.io/deployments to run the website
-   (it may have a small issue since I used multiple accounts and have anthentication issue now)
 
 Screenshots
 ![HomePage](home.png)
