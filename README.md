@@ -1,27 +1,52 @@
-# Unit
+# Unit Conversion
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+#### Date: 02/04/2023
 
-## Development server
+#### Due: 02/06/2023
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+#### By Jane M Wang
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## _Description_
 
-## Build
+The project is trying to build a website for science teachers who are comfortable using a browser. In their “Unit Conversion” science unit,
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+they want to assign students unit-conversion problems on paper worksheets. After students turn in their completed worksheet, the teachers want
 
-## Running unit tests
+to be able to enter the questions and student responses into a computer to be graded.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The application will be implemented with Angular.
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## _Technologies Used_
 
-## Further help
+- Angular
+- JavaScript
+- Typescript
+- HTML
+- CSS/SCSS
+- Visual Studio Code
+- Github
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## _How to install and run the website_
+
+There are two ways to run the website.
+
+1. fork the repo and run the website locally
+   To run the website locally, you need do the following steps:
+   - fork the repo (git clone ) on the terminal
+   - after fork the repo, in the local repo, you need run "npm install" and "npm i bootstrap"
+   - in angular.json, line 29, add "stlyes" of "node_modules/bootstrap/dist/css/bootstrap.min.css" to use bootstrap
+   - then run "ng serve" on the terminal
+   - finally run "localhost:4200" on the browser
+2. github.com/ventera-code-chanllenge/ventera-code-chanllenge.github.io/deployments to run the website
+   (it may have a small issue since I used multiple accounts and have anthentication issue now)
+
+Screenshots
+![HomePage](home.png)
+
+![Unit Conversion Page](units.png)
